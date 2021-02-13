@@ -1,0 +1,192 @@
+body{
+	height: 100vh;
+}
+
+.water {
+	background: #6390F0;
+}
+.fire {
+	background: #EE8130;
+}
+.normal {
+	background: #A8A77A;
+}
+.grass {
+	background: #7AC74C;
+}
+.ice{
+	background: #96D9D6;
+}
+.fighting{
+	background: #C22E28;
+}
+.poison {
+	background:#A33EA1;
+}
+.flying {
+	background:#A98FF3 ;
+}
+.bug {
+	background: #A6B91A;
+}
+.ground {
+  background: #E2BF65;
+}
+.electric {
+  background: #F7D02C;
+}
+.ghost {
+  background: #735797;
+}
+.dragon {
+  background: #6F35FC;
+}
+.psychic{
+	background: #F95587;
+}
+.rock{
+	background: #B6A136;
+}
+.dark{
+	background: #705746;
+}
+.steel{
+	background:#B7B7CE;
+}
+.fairy{
+	background:#D685AD;
+}
+#main{
+	height: 550px;
+	width: 800px;
+	margin-top: 5%;
+}
+#right-side{
+	width: 400px;
+	height: 500px;
+	margin-left: 0;
+	background-color: #fe0065;
+	border: 2px solid black;
+	border-left: none;
+	border-radius: 0 10px 10px 0;
+	box-shadow: 8px 5px 5px grey;
+
+}
+.btn {
+	/*border: 2px solid rgba(39, 31, 31, 0.705);*/
+	box-shadow: 3px 3px 5px black;
+}
+#name-screen{
+	border: 2px solid black;
+	background-color: whitesmoke;
+}
+.square{
+	display: flex;
+	border: 2px solid black;
+	align-items: center;
+	justify-content: center;
+	border-radius: 5px;
+	background-color: #7ca9f7;
+}
+.type{
+	display: flex;
+	border: 2px solid black;
+	align-items: center;
+	justify-content: center;
+	border-radius: 5px;
+	box-shadow: 8px 5px 5px #c5004f;
+	text-shadow: 2px 3px 3px rgb(65, 61, 61);
+	color: whitesmoke;
+}
+#left-side{
+	width: 400px;
+	height:550px;
+	margin-right: 0;
+	margin-bottom:50px;
+	background-color: #fe0065;
+	border: 2px solid black;
+	border-radius: 1.5rem 10px 0px 10px;
+	box-shadow: 8px 5px 5px grey;
+
+}
+
+#light-big-border{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 5px;
+	height: 70px;
+	width: 70px;
+	border: 2px solid black;
+	border-radius: 50%;
+	background-color: white;
+}
+#light-big{
+	height: 60px;
+  	width: 60px;
+ 	border-radius: 50%;
+  	border: 1px solid black;
+	background-color: #3298cb;
+}
+.row{
+	padding: 0.5rem;
+}
+.row .col-2{
+	padding: 0;
+}
+.light-sm{
+	border: solid black;
+	width: 28px;
+	height: 28px;
+	border-radius: 50%;
+	margin-right: 1rem;
+}
+.light-red{
+	background-color: #ff0000;
+}
+.light-yellow{
+	background-color: #fecb65;
+}
+.light-green{
+	background-color: #32cb65;
+}
+#screen-light{
+	border: solid black;
+	width: 26px;
+	height: 26px;
+	border-radius:50%;
+	margin-left: 1rem;
+	background-color: darkred;
+
+}
+.line{
+	width: 50%;
+	height: 1px;
+	border: 1px solid black;
+}
+#dex-screen{
+	border: 5px solid black;
+	border-radius: 5px 5px 5px 15%;
+	background-color: whitesmoke;
+}
+.img-thumbnail{
+	border: 3px solid grey;
+	max-height: 80%;
+}
+#button-search{
+	box-shadow: none;
+	color: whitesmoke;
+	
+}
+#button-search:hover{
+	background-color: #0DA927;
+}
+#button-search:focus{
+	background-color: #f8d07e;
+	
+}
+
+/* tbBody bg: https://images.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.imoUltuc_sLOKr8KjlJ6rQHaJF%26pid%3D15.1&f=1 */
+/* tbHead bg: https://cdn.bulbagarden.net/upload/thumb/6/6c/Generation_I_Pokedex.png/160px-Generation_I_Pokedex.png */
+/* spacing */
+
