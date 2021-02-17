@@ -1,6 +1,4 @@
-body{
-	height: 100vh;
-}
+
 
 .water {
 	background: #6390F0;
@@ -56,9 +54,10 @@ body{
 .fairy{
 	background:#D685AD;
 }
+
 #main{
-	height: 550px;
-	width: 800px;
+	/* height: 50%;
+	width: 50%; */
 	margin-top: 5%;
 }
 #right-side{
@@ -102,7 +101,7 @@ body{
 	width: 400px;
 	height:550px;
 	margin-right: 0;
-	margin-bottom:50px;
+	margin-bottom: 3.1rem;
 	background-color: #fe0065;
 	border: 2px solid black;
 	border-radius: 1.5rem 10px 0px 10px;
@@ -168,10 +167,12 @@ body{
 	border: 5px solid black;
 	border-radius: 5px 5px 5px 15%;
 	background-color: whitesmoke;
+	
 }
 .img-thumbnail{
 	border: 3px solid grey;
 	max-height: 80%;
+	
 }
 #button-search{
 	box-shadow: none;
@@ -190,3 +191,38 @@ body{
 /* tbHead bg: https://cdn.bulbagarden.net/upload/thumb/6/6c/Generation_I_Pokedex.png/160px-Generation_I_Pokedex.png */
 /* spacing */
 
+@media(max-width:768px){
+	#main{
+		display: flex;
+		flex-direction: column;
+		
+		align-items: center;
+		justify-content: start;
+	}
+	#right-side{
+		width: 90vw;
+		height: auto;
+		margin-right: 0;
+		border-left: 2px solid black;
+		border-radius: 5px 10px 10px 5px;
+
+	}
+	#left-side{
+		width: 90vw;
+		height: auto;
+		margin-bottom: 0;
+		margin-left: 0;
+		border-radius: 1.5rem 10px 10px 10px;
+
+	}
+	#screen-light{
+		margin-left: 2rem;
+	}
+	.type{
+		padding: 1rem;
+	}
+	.square{
+		padding: 0.5rem !important;
+	}
+	
+}
